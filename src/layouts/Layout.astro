@@ -2,8 +2,9 @@
 interface Props {
 	title: string;
 }
-
 const { title } = Astro.props;
+import '@fontsource-variable/rosario';
+import '@fontsource-variable/playfair-display';
 ---
 
 <!doctype html>
@@ -23,9 +24,14 @@ const { title } = Astro.props;
 <style is:global>
 	
 	html {
-		font-family: system-ui, sans-serif;
+		font-family: 'Rosario Variable', sans-serif;
 		background: #13151a;
 		color: white;
+		font-style: italic;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display Variable', serif;
 	}
 	
 </style>

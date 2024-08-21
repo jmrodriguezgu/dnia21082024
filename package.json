@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.3",
+    "@fontsource-variable/playfair-display": "^5.0.26",
+    "@fontsource-variable/rosario": "^5.0.15",
     "astro": "^4.14.3"
   },
   "devDependencies": {
